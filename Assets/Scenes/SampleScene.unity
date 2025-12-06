@@ -1217,7 +1217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71ef7b2e1da72b64e8c0ead8cf923d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4718380862539667007, guid: 6ce2d503a16eabd4ba23046bbdc0b09a, type: 3}
+  prefab: {fileID: 9214194993881085445, guid: 1e6e719aef6f526458c9a2a1d70d8d02, type: 3}
   amount: 5
   allowCreation: 0
 --- !u!114 &1661741932
