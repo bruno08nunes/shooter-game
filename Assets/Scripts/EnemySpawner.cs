@@ -11,6 +11,7 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(nameof(SpawnEnemy));
     }
 
+    // ABSTRACTION
     IEnumerator SpawnEnemy()
     {
         while (true)
@@ -21,7 +22,7 @@ public class EnemySpawner : MonoBehaviour
             {
                 continue;
             }
-            enemy.transform.position = new Vector3(2, 3, -24);
+            enemy.transform.position = new Vector3(2.16f, 2.36f, -21.45f);
             enemy.transform.SetParent(gameObject.transform, false);
             enemy.SetActive(true);
         }

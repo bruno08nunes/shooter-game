@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreText;
 
+    // ENCAPSULATION
     public int Score { get; private set; } = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
