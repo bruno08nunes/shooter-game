@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// INHERITANCE
 public class JumperEnemy : Enemy
 {
     [SerializeField] float jumpSpeed = 5;
@@ -18,6 +19,7 @@ public class JumperEnemy : Enemy
         Move();
     }
 
+    // POLYMORPHISM
     protected override void Move()
     {
         if (transform.position.y <= yInitialPosition + 0.5f)
